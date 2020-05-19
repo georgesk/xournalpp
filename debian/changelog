@@ -12,7 +12,9 @@ xournalpp (1.0.18+repack-1) UNRELEASED; urgency=medium
   * upgraded Standards-Version: 4.1.3, debhelper and compat level : 11
   * removed git from build dependencies, as the build must be made without
     access to Internet.
-  * Made the Description field shorted and adjusted the long description.
+  * Made the Description field shorter and adjusted the long description.
+  * Improved the file debian/copyright : some authors were forgotten in
+    previous versions of this file.
 
  -- Georges Khaznadar <georgesk@debian.org>  Tue, 19 May 2020 12:41:24 +0200
 
