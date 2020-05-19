@@ -1,11 +1,30 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xournalpp
+Files-Excluded:
+    xournalpp/debian/*
+
 Upstream Author / Copyright:
     <Copyright (C) 2018 Xournal Team Members>
 
-Webpage:
-    https://github.com/xournalpp/xournalpp/
+Files: *
+Copyright: 2018 Xournal Team Members
+License: GPL-2+
 
-License:
+Source: https://github.com/xournalpp/xournalpp/
 
+Comment:
+	xournalpp/debian/* is excluded because it does not comply with
+	current standards for packaging with git-buildpackage; however
+	much contents were borrowed from it, as Andreas Butti already
+	made a grest work to ease debian packaging.
+
+Files: debian/*
+Copyright: 2019 Georges Khaznadar <georgesk@debian.org>
+	   2018 Andreas Butti 	  <andreasbutti@gmail.com>
+License: GPL-2+
+
+
+License: GPL-2+
     This package is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation; either version 2 of the License, or
@@ -22,7 +41,4 @@ License:
 
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
-
-The Debian packaging is (C) 2018, Andreas Butti <andreasbutti@gmail.com> and
-is licensed under the GPL, see above.
 
