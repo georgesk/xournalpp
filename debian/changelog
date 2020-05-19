@@ -1,4 +1,4 @@
-xournalpp (1.0.18~rc1+repack-1) UNRELEASED; urgency=medium
+xournalpp (1.0.18+repack-1) UNRELEASED; urgency=medium
 
   * Created two new branches: "upstream" and "debian" to comply with the
     preferred structure for git-buildpackage. The branches are based on the
