@@ -1,7 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: xournalpp
-Files-Excluded:
-    xournalpp/debian/*
 
 Upstream Author / Copyright:
     <Copyright (C) 2018 Xournal Team Members>
@@ -11,12 +9,6 @@ Copyright: 2018 Xournal Team Members
 License: GPL-2+
 
 Source: https://github.com/xournalpp/xournalpp/
-
-Comment:
-	xournalpp/debian/* is excluded because it does not comply with
-	current standards for packaging with git-buildpackage; however
-	much contents were borrowed from it, as Andreas Butti already
-	made a grest work to ease debian packaging.
 
 Files: debian/*
 Copyright: 2019 Georges Khaznadar <georgesk@debian.org>

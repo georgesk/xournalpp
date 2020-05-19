@@ -1,15 +1,25 @@
 Source: xournalpp
-Maintainer: Andreas Butti <andreasbutti@gmail.com>
+Maintainer: Georges Khaznadar <georgesk@debian.org>
 Section: misc
 Priority: optional
-Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 9), cmake, git, libgtk-3-dev, libpoppler-glib-dev, libxml2-dev, portaudio19-dev, libsndfile-dev, liblua5.3-dev, libzip-dev
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 11),
+ cmake,
+ libgtk-3-dev,
+ libpoppler-glib-dev,
+ libxml2-dev,
+ portaudio19-dev,
+ libsndfile-dev,
+ liblua5.3-dev,
+ libzip-dev
 Homepage: https://github.com/xournalpp/xournalpp/
 
 Package: xournalpp
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Xournal++ is a handwriting Notetaking software with PDF annotation support. Supports Pen input like Wacom Tablets.
+Description: handwriting Notetaking software for PDF files
+ Xournal++ allows one to annotate PDF files. It supports Pen input like
+ Wacom Tablets.
 
 
 
