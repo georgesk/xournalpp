@@ -12,7 +12,9 @@ Build-Depends: debhelper (>= 11),
  libsndfile-dev,
  liblua5.3-dev,
  libzip-dev
-Homepage: https://github.com/xournalpp/xournalpp/
+Homepage: https://github.com/xournalpp/xournalpp
+Vcs-Browser: https://github.com/georgesk/xournalpp
+Vcs-Git: https://github.com/georgesk/xournalpp.git
 
 Package: xournalpp
 Architecture: any
