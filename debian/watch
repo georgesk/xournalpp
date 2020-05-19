@@ -1,0 +1,5 @@
+version=4
+
+opts=uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha|b|a)\d*)$/$1~$2/,dversionmangle=s/\+(debian|dfsg|ds|deb|gh)\d*$// \
+   https://github.com/xournalpp/xournalpp/tags \
+   (?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate
